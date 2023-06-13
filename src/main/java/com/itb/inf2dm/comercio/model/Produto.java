@@ -1,10 +1,12 @@
 package com.itb.inf2dm.comercio.model;
 
 public class Produto {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+private long id;
+private String descriçao;
+private String nome;
+private String codigoBarras;
+private Double precos;
+	
+	
 
 }
