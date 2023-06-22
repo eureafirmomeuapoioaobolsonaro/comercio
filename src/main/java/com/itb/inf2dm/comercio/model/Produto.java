@@ -12,11 +12,11 @@ private Double precos;
    //propria classe. entende-se por "membros " (atributos e / ou metodos)
 
    //Metodos setter's e getter's : Adicionar e Recuperar dados do atributo"Respectivamente"
-public void setId(long id) {
-	this.id = id;
-}
-public long getId() {
+public Long getId() {
 	return id;
+}
+public void setId(Long id) {
+	this.id = id;
 }
 public String getDescricao() {
 	return descricao;
