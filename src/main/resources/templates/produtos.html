@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,innitial-scale=1.0">
         <meta name="viewport">
         
   <meta content="width=device-width, inicial-scale=1.0">
@@ -14,7 +16,7 @@
         <main class="container bg-light mt-4">
             <div>
                 <i class="fast fa-cart-plus ml-2"></i>
-                <a th:href="@{/comercio/produto/novo-prod}" class="btn btn-primary m-2">Novo Projeto</a>
+                <a th:href="@{/comercio/produto/novo-prod}" class="btn btn-primary m-2">Novo Produto</a>
            
         </div>
         <div>
@@ -25,10 +27,10 @@
                         <th>ID</th>
                         <th>Nome</th>
                         <th>Código de barras</th>
-                        <th>preços</th>
+                        <th>precos</th>
                         <th>Descrição</th>
                         <th>Editar</th>
-                        <th>Status</th>
+                        <th>status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -36,11 +38,11 @@
                         <td th:text="${produto.id}"></td>
                         <td th:text="${produto.nome}"></td>
                         <td th:text="${produto.codigoBarras}"></td>
-                        <td th:text="${produto.preco}"></td>
+                        <td th:text="${produto.precos}"></td>
                         <td th:text="${produto.descricao}"></td>
-                        <td th:text="${produto.codstatus ? 'Inativo'"></td>
-                        <td><a href="#" class="btn btn-primary">Editar</a></td>
-                        <i class="fas fa-edit ml-2"></i>
+                        <td th:text="${produto.status} ?'ativo': 'Inativo'">}</td>
+                        <td><a href="#" class="btn btn-primary">Editar</a>
+                        <i class="fas fa-edit ml-2"></i></td>
                     </tr>
                 </tbody>
             </table>
