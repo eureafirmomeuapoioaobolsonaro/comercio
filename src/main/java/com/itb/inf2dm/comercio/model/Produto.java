@@ -6,6 +6,7 @@ private String descricao;
 private String nome;
 private String codigoBarras;
 private Double precos;
+private String status;
 
    //public: modificador de acesso livre para todas as classes
    //private: modificador de acesso restrito apenas para membros da
@@ -41,5 +42,13 @@ public Double getPrecos() {
 }
 public void setPrecos(Double precos) {
 	this.precos = precos;
+	
+}
+public String getStatus(){
+	return status;
+}
+public void setStatus(String status){
+	this.status = status;
+
 }
 }
