@@ -24,16 +24,17 @@ public String listarProdutos(Model model) {
 	p1.setCodigoBarras("JGIEI453JD2KMEU5311");
 	p1.setPrecos(123445.32);
 	p1.setDescricao("maquinas de lavar suas roupas imundas e fedidas");
-	p1.setStatus("cabo felas");
+	p1.setCodStatus("cabo felas");
+		listaDeProdutos.add(p1);
 	
-	listaDeProdutos.add(p1);
 	Produto p2 = new Produto();
 	p2.setId  (21l);
 	p2.setNome("tv sansungo 69 polegadas ");
 	p2.setCodigoBarras("l3lfespwepovowl=wpr1121");
 	p2.setPrecos(123445.32);
-	p1.setDescricao("tv para ver aquela novelinha aquele fut de cria");
-	p2.setStatus("ainda tem felas");
+	p2.setDescricao("tv para ver aquela novelinha aquele fut de cria");
+	p2.setCodStatus("ainda tem felas");
+
 	listaDeProdutos.add(p2);
 	model.addAttribute("listaDeProdutos",listaDeProdutos);
 	return "produtos";
