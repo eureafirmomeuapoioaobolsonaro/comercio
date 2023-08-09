@@ -5,7 +5,7 @@ private long id;
 private String descricao;
 private String nome;
 private String codigoBarras;
-private Double precos;
+private Double preco;
 private String codStatus;
 
    //public: modificador de acesso livre para todas as classes
@@ -37,11 +37,11 @@ public String getCodigoBarras() {
 public void setCodigoBarras(String codigoBarras) {
 	this.codigoBarras = codigoBarras;
 }
-public Double getPrecos() {
-	return precos;
+public Double getPreco() {
+	return preco;
 }
-public void setPrecos(Double precos) {
-	this.precos = precos;
+public void setPreco(Double preco) {
+	this.preco = preco;
 	
 }
 public String getCodStatus(){
