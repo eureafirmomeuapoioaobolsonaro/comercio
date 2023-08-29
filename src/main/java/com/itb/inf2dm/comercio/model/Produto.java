@@ -58,6 +58,7 @@ public String getCodStatus(){
 }
 public void setCodStatus(String codStatus){
 	this.codStatus = codStatus;
+	
 
 }
 }

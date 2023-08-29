@@ -24,7 +24,7 @@ public String listarProdutos(Model model) {
 	p1.setNome("Máquina de Lavar Brastemp 12 litros");
 	p1.setCodigoBarras("JGIEI453JD2KMEU5311");
 	p1.setPreco(123445.32);
-	p1.setDescricao("maquinas de lavar suas roupas imundas e fedidas");
+	p1.setDescricao("maquinas de lavar suas roupas imundas e fedidas seu porco");
 	p1.setCodStatus("cabo felas");
 		listaDeProdutos.add(p1);
 	
