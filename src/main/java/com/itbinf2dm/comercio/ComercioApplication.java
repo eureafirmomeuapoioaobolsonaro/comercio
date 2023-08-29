@@ -10,7 +10,7 @@ public class ComercioApplication {
 		SpringApplication.run(ComercioApplication.class, args);
 		System.out.println("Ola Mundo!");
 		
-		 
+		  
 	}
 
 }

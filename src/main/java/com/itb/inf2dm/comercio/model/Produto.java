@@ -11,7 +11,7 @@ public class Produto {
 	@Id //PK
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //AUTO-INCREMENTO AUTOMATICO - COMEÇANDO NO ID "1"
 private long id;
-private String descricao;
+private String descricao; 
 private String nome;
 private String codigoBarras;
 private Double preco;
@@ -25,7 +25,7 @@ private String codStatus;
 public Long getId() {
 	return id;
 }
-public void setId(Long id) {  
+public void setId(Long id) {
 	this.id = id;
 }
 public String getDescricao() {
@@ -58,7 +58,6 @@ public String getCodStatus(){
 }
 public void setCodStatus(String codStatus){
 	this.codStatus = codStatus;
-	
 
 }
 }

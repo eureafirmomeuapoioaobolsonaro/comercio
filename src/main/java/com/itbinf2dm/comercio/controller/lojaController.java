@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.itb.inf2dm.comercio.model.Produto;
 
 @Controller
-@RequestMapping("/comercio/produtos") 
+@RequestMapping("/comercio/produtos")   
 public class lojaController {
 	List<Produto> listaDeProdutos = new ArrayList<Produto>();
 	
