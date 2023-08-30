@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.itb.inf2dm.comercio.model.Produto;
-
+ 
 @Controller
 @RequestMapping("/comercio/produtos")   
 public class lojaController {
